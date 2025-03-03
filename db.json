@@ -1,0 +1,100 @@
+{
+  "usuarios": [
+    {
+      "id": "8624",
+      "nombreUsuario": "Pepe",
+      "apellido": "Rodriguez",
+      "correo": "pepe@gmail.com",
+      "contrasena": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "8621",
+      "nombreUsuario": "admin",
+      "apellido": "admin",
+      "correo": "admin@gmail.com",
+      "contrasena": "admin",
+      "cargo": "admin"
+    },
+    {
+      "id": "c0c3",
+      "nombreUsuario": "Maria",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "0a17",
+      "nombreUsuario": "Misael",
+      "apellido": "Barberena",
+      "correo": "misael@gmail",
+      "contrasena": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "59dd",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "a983",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "446e",
+      "nombreUsuario": "Maria",
+      "password": "5678",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "671f",
+      "nombreUsuario": "Maria",
+      "password": "5678",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "c533",
+      "nombreUsuario": "Maria",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "7c48",
+      "nombreUsuario": "Maria",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "9202",
+      "nombreUsuario": "Pepe",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "3864",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
+    }
+  ],
+  "admin": [
+    {
+      "id": "be6a",
+      "nombreCompletoConsultor": "Pepe Viyuela",
+      "correoConsultor": "pepin@gmail.com",
+      "consulta": "abc",
+      "horaConsulta": "14:13",
+      "fechaConsulta": "28/11/2025"
+    },
+    {
+      "id": "66a7",
+      "nombreCompletoConsultor": "Ian Viyuela",
+      "correoConsultor": "pepin@gmail.com",
+      "consulta": "Hola",
+      "horaConsulta": "22:48",
+      "fechaConsulta": "28/11/2025"
+    }
+  ]
+}

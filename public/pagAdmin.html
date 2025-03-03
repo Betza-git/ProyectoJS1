@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Admin</title>
+    <link rel="stylesheet" href="pagAdmin.css">
+</head>
+<body>
+    <section>
+    
+    <header>
+        <h1>Bienvenido</h1>
+        <div class="user-info">
+            <span>Bienvenido, Usuario</span>
+            <button id="cerrar">Cerrar Sesión</button>
+        </div>
+    </header>
+
+   
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Solicitudes y trámites</a></li>
+                <li><a href="#">Calificaciones</a></li>
+                <li><a href="#">Horarios</a></li>
+                <li><a href="#">Mi cuenta</a></li>
+                <div>
+                <link rel="stylesheet" href="imagenes/2GU.gif">
+            </div>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="tickets" id="datosTic">
+        <h1 class="soli">Solicitudes y trámites</h1>
+            <h3>Tickets</h3>
+            <table class="tablaDatos"   id="tablaDatos" border="1"></table>
+        </main>
+        <footer>
+            <p>Sistema de Tiquetes-Admin</p>
+        </footer>
+    </section>
+    
+
+</body>
+</html>
+<script type="module" src="pagAdmin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</html>

@@ -1,0 +1,143 @@
+
+section {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagenes/9viJ.gif);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.iniS{
+  color: #efe5e5;
+
+}
+ .login-container1{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    backdrop-filter: blur(15px);
+
+
+ }
+
+ h2{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #0ecdc6;            /*color de la letra*/
+    text-align: center;
+    color: #0ecdc6;
+ }
+
+
+.loginEstu{
+    
+    position: relative;
+    width: 400px;
+    height: 750px;
+    background: #c856eb;
+    border-radius: 20px;    
+}
+
+.input1, .input2{
+    position: relative;
+   width: 310px;
+   margin: 30px 0;
+   border-bottom: 2px solid #ffffff;
+   
+    
+   
+}
+
+.label1, .label2{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #ffffff;
+    pointer-events: none;
+    transition: .5s;
+   
+}
+
+.input1 input, .input2 input{
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    color: #ffffff;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;   
+}
+
+.icono{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color: #ffffff;
+    font-size: 1.2em;   
+}
+
+.cuentaN{
+    color: #ffffff;
+    display: flex;
+     justify-content: space-between;
+}
+
+
+
+.pass{
+   color: #ffffff;
+   display: flex;
+    justify-content: space-between;
+}
+
+.olvidar :hover{ 
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: underline;
+}
+
+@media (max-width: 360px){
+    .login-container1{
+        width: 300px;
+        height: 400px;
+    }
+    .loginEstu{
+        width: 300px;
+        height: 600px;
+    }
+    .input1, .input2{
+        width: 250px;
+    }
+    .label1, .label2{
+        font-size: .8em;
+    }
+    .input1 input, .input2 input{
+        height: 40px;
+        font-size: .8em;
+    }
+    .icono{
+        font-size: 1em;
+    }
+    .pass{
+        font-size: .8em;
+    }
+    .olvidar{
+        font-size: .8em;
+    }
+    
+}
