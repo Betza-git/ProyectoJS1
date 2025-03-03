@@ -1,7 +1,7 @@
 import { getData } from "./servicios/llamados.js"
 
 const tablaDatos = document.getElementById("tablaDatos")
-
+const cerrar = document.getElementById("cerrar")
 async function mostrarDatos() {
     const consultas = await getData("admin")
 
@@ -51,3 +51,16 @@ async function mostrarDatos() {
 }
 
 mostrarDatos()
+
+cerrar.addEventListener("click",()=>{
+    setTimeout(() => {
+        Swal.fire({
+            title: 'info!',
+            text: 'Cerrando sesión',
+            icon: 'info',
+            confirmButtonText: 'Cool'
+          })
+          window.location.href = "index.html"
+          localStorage.clear()
+    }, 1000);
+})

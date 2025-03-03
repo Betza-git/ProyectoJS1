@@ -77,6 +77,48 @@
       "nombreUsuario": "admin",
       "password": "admin",
       "cargo": "estudiante"
+    },
+    {
+      "id": "abe7",
+      "nombreUsuario": "Maria",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "d415",
+      "nombreUsuario": "Pepe",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "be79",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "24bd",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "3483",
+      "nombreUsuario": "Pepe",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "1d2f",
+      "nombreUsuario": "Pepe",
+      "password": "1234",
+      "cargo": "estudiante"
+    },
+    {
+      "id": "61c3",
+      "nombreUsuario": "admin",
+      "password": "admin",
+      "cargo": "estudiante"
     }
   ],
   "admin": [
@@ -95,6 +137,14 @@
       "consulta": "Hola",
       "horaConsulta": "22:48",
       "fechaConsulta": "28/11/2025"
+    },
+    {
+      "id": "e591",
+      "nombreCompletoConsultor": "Pepe A",
+      "correoConsultor": "klh",
+      "consulta": "Holaaa",
+      "horaConsulta": "11:48",
+      "fechaConsulta": "3/21/2025"
     }
   ]
 }
